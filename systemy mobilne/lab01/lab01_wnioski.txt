@@ -1,0 +1,16 @@
+zad1:
+
+	Względny spadek mocy sygnału (wyrażony w dB) rośnie logarytmicznie wraz z odległością  między nadajnikiem a odbiornikiem, co oznacza, że większa odległość wymaga mocniejszego nadajnika lub bardziej czułego odbiornika, aby zachować dobry poziom sygnału.
+	Ponadto wyższa częstotliwość (2400MHz) prowadzi do większego spadku mocy sygnału w porównaniu z niższą częstotliwością (900MHz) dla tej samej odległości, co jest spowodowane krótszą długością fali.
+
+
+zad2:
+
+	Opóźnienie jest liniowo zależne od odległości co wynika z proporcjonalności opóźnienia do odległości: większa odległość oznacza większe opóźnienie.
+
+
+zad3:
+
+	W przypadku transmisji wielodrogowej na wykresach można zauważyć charakterystyczne prążki interferencyjne, czyli naprzemienne maksima i minima mocy odbieranej sygnału (wielokrotność 2pi - wzmocnienie sygnału - interferencji konstruktywnej, wielokrotność (2n+1)pi - osłabienie sygnału - interferencja destruktywna). W przypadku wyższej częstotliwości (2400MHz) prążki są gęstsze (krótsza długość fali - większa czułość sygnału na zmiany odległości), natomiast gdy mamy do czynienia z niższą częstotliwością (900MHz) prążki są bardziej rozciągnięte jednocześnie będąc mniej podatne na zmiany odległości.
+	Dla mniejszych odległości (1-100m) względny spadek mocy jest bardziej chaotyczny, ponieważ różnice w długościach ścieżek są większe w stosunku do długości fali, natomiast dla odległości większych (1m-10km) wpływ interferencji maleje ze względu na ogólny spadek mocy sygnału związany z odległością.
+	Dwudrogowość może poprawić jakość sygnału w punktach wzmocnienia sygnału, jednak jednocześnie tworzy punkty gdzie sygnał zanika. Istotne są również różnice wysokości anten, gdyż ich wzrost wzmacnia efekt interferencji.
